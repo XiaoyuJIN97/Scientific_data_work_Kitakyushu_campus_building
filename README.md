@@ -7,5 +7,8 @@ The repository includes the following code files:
 1. Data_processing_xxx.py and Data_processing_xxx_Time series.py: These code files are responsible for filtering the data from the CSV file and expanding it into an hour-by-hour time series format. The filtered data consists of energy station load data, energy station power and gas purchases, energy station heat recovery, and weather files. The code in these files performs data processing tasks and transforms the raw data into a suitable format for further analysis.
 2. Scientific_data_Figure.ipynb: This Jupyter Notebook file contains code for visualizing the test data that has been filtered and processed. It provides code snippets and functions for generating plots and graphs based on the selected data. Researchers can refer to this file to create visual representations of the analyzed data.
 For more detailed information and the implementation of data filtering, processing, and visualization tasks, please refer to the respective code files.
-
+# Consolidated Data for Visualization
+The repository also includes an additional Excel file that consolidates some of the processed data for use in data visualization. This Excel file serves as a data source for the plots and graphs generated in the data visualization code.
+The "Scientific data_Figure.xlsx" file contains the consolidated data that is utilized in the data visualization process. This file integrates the relevant information from various sources, including the energy station load data, energy station power and gas purchases, energy station heat recovery, and weather files.
+Please note that this file should be used in conjunction with the "Scientific_data_Figure.ipynb" code file for data visualization purposes.
 
